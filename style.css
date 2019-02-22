@@ -97,8 +97,10 @@ div{display:block;position:absolute}
 	top:0
 	}
 
-.background{
-background:#000000;	
+.span-edit{
+text-decoration=none;
+color:#fff;	
+font-size:5px;
 }
 
 .white{
@@ -108,9 +110,11 @@ background:#000000;
 	top:155px
 	}
 
+
 @keyframes rotation{
 	0%{transform:rotateY(0deg)}
 	100%{transform:rotateY(360deg)}
 	}
+
 
 

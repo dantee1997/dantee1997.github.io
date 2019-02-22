@@ -97,8 +97,12 @@ div{display:block;position:absolute}
 	top:0
 	}
 
+.background{
+background-color:#000000;	
+}
+
 .white{
-	background:#black;
+	background:#fff;
 	width:30%;
 	height:30%;
 	top:155px

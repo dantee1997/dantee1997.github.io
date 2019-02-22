@@ -108,43 +108,5 @@ div{display:block;position:absolute}
 	0%{transform:rotateY(0deg)}
 	100%{transform:rotateY(360deg)}
 	}
-/*                                             ! Vue.js 3D Logo Ended Here ...
-=======================================================================================================================*/
 
-/* This Is Not Part Of Vue.js 3D Logo */
-.me{
-	background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1735448/profile/profile-80.jpg?1528976396")no-repeat center / contain;
-	width:40px;
-	height:40px;
-	bottom:16px;
-	right:16px;
-	display:block;
-	position:fixed;
-	border-radius:50%;
-	z-index:999;
-	animation:me 2s linear infinite alternate
-	}
 
-@keyframes me{
-	from{transform:translateY(-4px)}
-	to{transform:translateY(4px)}
-	}
-
-.me:hover span
-	{right:50px;opacity:1;visibility:visible}
-
-.me span{
-	width:150px;
-	top:10px;
-	right:0;
-	display:block;
-	position:absolute;
-	color:#008080;
-	font-family:Tahoma,Geneva,sans-serif;
-	font-size:16px;
-	font-weight:400;
-	z-index:-1;
-	opacity:0;
-	visibility:hidden;
-	transition:all .5s ease
-	}

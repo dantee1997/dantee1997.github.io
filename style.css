@@ -100,7 +100,8 @@ div{display:block;position:absolute}
 .span-edit{
 text-decoration=none;
 color:#fff;	
-font-size:5px;
+font-size:100px;
+top:20px;
 }
 
 .white{

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/js/js.js"></script>
+    <script src="/js/demo.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/admin.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <title>Admin Panel Anasayfa</title>
+</head>
+<body>
+<!--top nav start=======-->
+<div id="container">
+        <nav class="navbar navbar-expand-lg navbar-light logo navbaristek" style="height: 10%;">
+                <img src="image/logotransparent.png" class="navbar-brand">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarColor03">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item white">
+<a class="nav-link" href="KullaniciBilgileri.html">Kullanıcı Bilgileri</a>
+</li>
+<li class="nav-item">
+ <a class="nav-link" href="TurnuvaAyarlari.html">Turnuva Ayarları</a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu" href="Takimlar.html">Tüm Takımlar</a>
+</li>
+</ul>
+<form class="navbar-form navbar-right">
+<div class="form-group nav-item left">
+<li class="nav-item navbar-nav mr-auto">
+<span>Yönetici Sayfası</span>
+</li>
+</form>
+</div>
+</nav>
+</div>
+  <!--    top nav end===========-->
+      
+      <!-- begin SIDE NAV USER PANEL -->     
+  <div class="container-1" id="user-profil">                  
+  <ul id="side" class="nav navbar-nav-1 side-nav">
+      
+   <li class="side-user">  
+    <img class="img-circle" src="https://lh3.googleusercontent.com/-uwagl9sPHag/WM7WQa00ynI/AAAAAAAADtA/hio87ZnTpakcchDXNrKc_wlkHEcpH6vMwCJoC/w140-h148-p-rw/profile-pic.jpg" alt="sumit kumar">
+      <p class="welcome"><i class="fa fa-key"></i> Logged in as</p>
+      <p class="name tooltip-sidebar-logout"> Sumit
+      <span class="last-name">Kumar</span>
+      <a href="#"><i class="fa fa-sign-out"></i></a>
+      </p>        
+   </li>
+      
+      <li class="nav-search">
+     <form class="navbar-form">
+      <div class="input-group">
+       <input type="text" class="form-control" placeholder="Search">
+       <div class="input-group-btn">
+       <button class="btn btn-default" type="submit">
+       <i class="glyphicon glyphicon-search"></i>
+       </button>
+       </div>
+     </div>
+    </form>
+   </li>
+      </div>     
+      <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Yönetim Sayfasına Hoşgeldin!</h4>
+            <p>Buradan sitenin kullanıcılarından, turnuvalarına, takımlarına kadar düzenleyebilirsin</p>
+            <p class="mb-0">Aşağıda yer alan analizlere göz atabilir,üst menüden ayarlara ulaşabilirsiniz.</p>
+          </div>                                      
+          <div class="row margin-left" >
+<div class="col-lg-3 col-sm-6">
+    <div class="circle-tile">
+        <a href="#">
+            <div class="circle-tile-heading dark-blue">
+                <i class="fas fa-user-plus  fa-4x"></i>
+            </div>
+        </a>
+        <div class="circle-tile-content dark-blue">
+            <div class="circle-tile-description text-faded">
+                Toplam Kullanıcı Sayısı
+            </div>
+            <div class="circle-tile-number text-faded">
+                265
+                <span id="sparklineA"></span>
+            </div>
+            <a href="KullaniciBilgileri.html" class="circle-tile-footer">Kullanıcı Ayarları <i class="fa fa-chevron-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-3 col-sm-6">
+    <div class="circle-tile">
+ <a href="#">
+     <div class="circle-tile-heading blue">
+         <i class="fa fa-users fa-fw fa-3x"></i>
+     </div>
+ </a>
+ <div class="circle-tile-content blue">
+     <div class="circle-tile-description text-faded">
+         Turnuva Sayısı
+     </div>
+     <div class="circle-tile-number text-faded">
+         10
+         <span id="sparklineB"></span>
+     </div>
+<a href="TurnuvaAyarlari.html" class="circle-tile-footer">Turnuva Ayarları <i class="fa fa-chevron-circle-right"></i></a>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="circle-tile">
+<a href="#">
+<div class="circle-tile-heading red">
+<i class="fa fa-users fa-fw fa-3x"></i>
+</div>
+</a>
+<div class="circle-tile-content red">
+<div class="circle-tile-description text-faded">
+ Takım Sayısı
+</div>
+<div class="circle-tile-number text-faded">
+ 24
+ <span id="sparklineC"></span>
+</div>
+<a href="Takimlar.html" class="circle-tile-footer">Takım Ayarları <i class="fa fa-chevron-circle-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+      
+     
+         
+       
+</body>
+</html>

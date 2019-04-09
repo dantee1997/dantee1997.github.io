@@ -1,3 +1,0 @@
-Coming Soon!
-
-New Blog Site...

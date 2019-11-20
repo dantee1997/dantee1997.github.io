@@ -1,0 +1,44 @@
+#cv-head{
+width:100%;
+float:left;
+position:relative;
+}
+.cv-base-div{
+width:100%;
+float:left;
+position:relative;
+}
+.image-cv{
+position:relative;
+float:right;
+}
+.image-cv img{
+width:200px;
+padding:5px 5px;
+}
+.cv-info{
+ float:left;
+ position:relative;
+padding-top:100px;
+}
+#cv-body{
+width:100%;
+float:left;
+position:relative;
+margin:10px;
+}
+
+.information-div{
+    float:left;
+    position:relative;
+    width:100%;
+}
+.person-info{
+    float:left;
+    position:relative;
+    width:100%;
+}
+.person-info h6{
+position:relative;
+display:inline-block;
+}
